@@ -72,5 +72,79 @@
     </div>
 
     <!-- PORTFOLIO -->
+    <div class="portfolio-bar">
+        <div class="portfolio-bar-item">
+            <span>14+</span>
+            <br>
+            Partners
+        </div>
+        <div class="portfolio-bar-item">
+            <span>55+</span>
+            <br>
+            Projects Done
+        </div>
+        <div class="portfolio-bar-item">
+            <span>89+</span>
+            <br>
+            Happy Clients
+        </div>
+        <div class="portfolio-bar-item">
+            <span>150+</span>
+            <br>
+            Meetings
+        </div>
+    </div>
+    <div class="portfolio-bg">
+        <span>PORTFOLIO</span>
+    </div>
+    <div id="portfolio">
+        <h3 class="portfolio-text-center">MY WORK</h3>
+        <p class="portfolio-description">
+            <em>
+                Here are some of my latest lorem work ipsum tipsum.
+                <br>
+                Click on the images to make them bigger
+            </em>
+        </p>
+        <br>
+        <div class="portfolio-project-list">
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p1.jpg" style="width: 100%;" onclick="onClick(this)" alt="Mountain">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p2.jpg" style="width: 100%;" onclick="onClick(this)" alt="Coffee">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p3.jpg" style="width: 100%;" onclick="onClick(this)" alt="Bear">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p4.jpg" style="width: 100%;" onclick="onClick(this)" alt="Lake">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p5.jpg" style="width: 100%;" onclick="onClick(this)" alt="Mist">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p6.jpg" style="width: 100%;" onclick="onClick(this)" alt="Calculator">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p7.jpg" style="width: 100%;" onclick="onClick(this)" alt="Train">
+            </div>
+            <div class="portfolio-project-item m3">
+                <img src="https://www.w3schools.com/w3images/p8.jpg" style="width: 100%;" onclick="onClick(this)" alt="Lake">
+            </div>
+        </div>
+        <div class="load-more-btn">
+            <button class="btn">LOAD MORE</button>
+        </div>
+    </div>
+
+    <script>
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+    </script>
 </body>
 </html>

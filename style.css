@@ -49,6 +49,7 @@ p {
     min-height: 400px;
     opacity: 0.75;
 }
+
 .home-logo {
     position: absolute;
     background-color: #000;
@@ -70,33 +71,39 @@ p {
     padding-top: 64px;
     padding-bottom: 64px
 }
+
 .about-text-center {
     text-align: center;
     line-height: 1.8;
     font-size: 24px;
     font-weight: 400;
 }
+
 .about-profile::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .profile-avatar-container {
     float: left;
     width: 49.99999%;
     text-align: center;
     padding: 12px 24px
 }
+
 .profile-avatar-name {
     margin: 15px 0;
     padding: 12px 0;
     text-align: center;
 }
+
 .profile-avatar {
     width: 100%;
     margin-top: 10px;
     opacity: .8;
 }
+
 .profile-description {
     padding: 26px 24px;
 }
@@ -107,13 +114,16 @@ p {
     padding: 16px 0;
     text-align: center;
 }
+
 .skill-title {
     letter-spacing: 12px;
 }
+
 .skill-percent {
     width: 100%;
     background-color: #f1f1f1;
 }
+
 .skill-complete-percent {
     color: white;
     background-color: #616161;
@@ -123,3 +133,87 @@ p {
 }
 
 /* PORTFOLIO */
+.portfolio-bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #616161;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.portfolio-bar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px;
+    font-size: 22px;
+    width: 400px;
+    height: 80px;
+}
+
+.portfolio-bg {
+    background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+    position: relative;
+    background-position-y: 50%;
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    min-height: 400px;
+    opacity: 0.75;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-bg>span {
+    font-size: 36px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#portfolio {
+    max-width: 980px;
+    margin: auto;
+    padding: 0.01em 16px;
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.portfolio-text-center {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.portfolio-description {
+    text-align: center;
+}
+
+.portfolio-project-list {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.portfolio-project-item {
+    float: left;
+}
+
+.portfolio-project-item.m3 {
+    width: 25%
+}
+
+.load-more-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.load-more-btn .btn {
+    border: none;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 15px 24px;
+}
