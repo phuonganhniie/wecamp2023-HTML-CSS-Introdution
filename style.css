@@ -1,0 +1,125 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #777;
+    margin: 0;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+/* HEADER - NAVBAR */
+#navbar {
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    height: 30px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 100;
+}
+
+.nav-item {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+
+.search-btn {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    right: 30px;
+}
+
+/* HOME */
+.home-bg-container {
+    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    position: relative;
+    background-position-y: 50%;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+    min-height: 400px;
+    opacity: 0.75;
+}
+.home-logo {
+    position: absolute;
+    background-color: #000;
+    color: white;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 12px 24px;
+    letter-spacing: 13px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* ABOUT */
+#about {
+    max-width: 980px;
+    margin: auto;
+    padding: 0.01em 16px;
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+.about-text-center {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 24px;
+    font-weight: 400;
+}
+.about-profile::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.profile-avatar-container {
+    float: left;
+    width: 49.99999%;
+    text-align: center;
+    padding: 12px 24px
+}
+.profile-avatar-name {
+    margin: 15px 0;
+    padding: 12px 0;
+    text-align: center;
+}
+.profile-avatar {
+    width: 100%;
+    margin-top: 10px;
+    opacity: .8;
+}
+.profile-description {
+    padding: 26px 24px;
+}
+
+.skill-list {
+    font-size: 18px;
+    margin: 18px 0;
+    padding: 16px 0;
+    text-align: center;
+}
+.skill-title {
+    letter-spacing: 12px;
+}
+.skill-percent {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.skill-complete-percent {
+    color: white;
+    background-color: #616161;
+    text-align: center;
+    line-height: 1.8;
+    padding: 4px 8px;
+}
+
+/* PORTFOLIO */

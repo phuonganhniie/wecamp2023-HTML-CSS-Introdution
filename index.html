@@ -2,23 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homework1</title>
+    <title>WECAMP 2023 | HTML - CSS Introduction</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="navbar">
-        <a href="#home" class="nav-button">HOME</a>
-        <a href="#about" class="nav-button"><i class="fa-solid fa-user"></i> ABOUT</a>
-        <a href="#portfolio" class="nav-button"><i class="fa-solid fa-bars"></i> PORTFOLIO</a>
-        <a href="#contact" class="nav-button"><i class="fa-solid fa-envelope"></i> CONTACT</a>
-        <a href="#" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
-    </div>
+    <!-- HEADER -->
+    <header id="header">
+        <div id="navbar">
+            <a href="#home" class="nav-item">HOME</a>
+            <a href="#about" class="nav-item"><i class="fa-solid fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="nav-item"><i class="fa-solid fa-bars"></i> PORTFOLIO</a>
+            <a href="#contact" class="nav-item"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+            <a href="#" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </header>
+    
+    <!-- HOME -->
     <div id="home">
-        <div class="display-header-text">
-            <span>MY WEBSITE LOGO</span>
+        <div class="home-bg-container">
+            <span class="home-logo">MY WEBSITE LOGO</span>
         </div>
     </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+        <h3 class="about-text-center">ABOUT ME</h3>
+        <p style="text-align: center;"><em>I love photography</em></p>
+        <p>
+            We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="about-profile">
+            <div class="profile-avatar-container">
+                <p class="profile-name">
+                    <i class="fa-solid fa-user"></i> My Name
+                </p>
+                <img class="profile-avatar" src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="avatar">
+            </div>
+            <p class="profile-description">
+                Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </p>
+        </div>
+        <div>
+            <p class="skill-list">Im really good at:</p>
+            <p class="skill-title"><i class="fa fa-camera"></i>Photography</p>
+            <div class="skill-percent">
+                <div class="skill-complete-percent" style="width: 90%;">90%</div>
+            </div>
+            <p class="skill-title"><i class="fa-solid fa-laptop"></i>Web Design</p>
+            <div class="skill-percent">
+                <div class="skill-complete-percent" style="width: 85%;">85%</div>
+            </div>
+            <p class="skill-title"><i class="fa-solid fa-image"></i>Photoshop</p>
+            <div class="skill-percent">
+                <div class="skill-complete-percent" style="width: 75%;">75%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
 </body>
 </html>
