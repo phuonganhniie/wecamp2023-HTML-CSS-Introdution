@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+#navbar {
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    height: 30px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 100;
+}
+.nav-button {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+.search-btn {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    right: 30px;
+}
+#home {
+    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    background-position-y: 50%;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 400px;
+    opacity: 0.75;
+}
+.display-header-text {
+    background-color: black;
+    position: absolute;
+}
